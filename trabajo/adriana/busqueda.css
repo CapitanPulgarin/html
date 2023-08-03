@@ -1,0 +1,40 @@
+@font-face {
+    font-family: ha;
+    src: url(Halo.ttf);
+}
+
+*{
+    font-family: ha;
+    background-image: url('inicio.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+}
+
+.centrado{
+    position: absolute;
+    position: relative;
+    text-align:right;
+    
+    
+}
+h1{
+    font-size: 5em;
+    text-align: center;
+}
+a{
+    color:black;
+}
+p{
+    font-size: 1em;
+    font-family:  Arial; 
+    border: solid 1px;
+    border-radius: 19px;
+    padding: 60px;
+    
+    
+
+
+
+}    
+
