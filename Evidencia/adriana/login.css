@@ -1,0 +1,59 @@
+@font-face {
+    font-family: ha;
+    src: url(Halo.ttf);
+}
+
+body{
+    background-image: url(/interfaces/imagenes/YE6HTQIOMRATVEVRAMB4L6JNR4.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+.form{
+    background-image:url(/interfaces/imagenes/YE6HTQIOMRATVEVRAMB4L6JNR4.jpg);
+    background-size: cover;
+    text-align: center;
+    border: 2px solid rgb(48, 163, 135)(37, 7, 7);
+    margin-top:80px;
+    margin-left: 6pc;
+    margin-right: 90pc;
+    padding-bottom: 200px;
+    padding-top: 80px;
+    border-radius: 18px;
+    
+}
+.i{
+    text-align: left;
+    color: antiquewhite;
+    padding-top: 3px;
+    font-family: ha;
+    font-size: 2em;
+    margin-bottom: 2px;
+}
+.e{
+    font-size: 2em;
+    padding-top: 4px;
+    margin-right: 115pc;
+}
+.slider-container {
+    margin-top: -500px;
+    margin-left: 600px;
+    width: 50%; /* Ajusta este valor para cambiar el tamaño del slider */
+    overflow: hidden;
+    position: relative;
+    border-radius: 12pc;
+    
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    
+}
+  
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+
+

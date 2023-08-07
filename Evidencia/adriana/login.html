@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/login.css">
+    <title>Login</title>
+</head>
+<script>
+ document.addEventListener("DOMContentLoaded", function () {
+  const slider = document.querySelector(".slider");
+  const images = slider.querySelectorAll("img");
+  const interval = 3000; // Cambia esto para ajustar el intervalo de cambio
+  let currentIndex = images.length - 1;
+
+  function showImage(index) {
+    slider.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  function nextImage() {
+    currentIndex = (currentIndex - 1 + images.length) % images.length;
+    showImage(currentIndex);
+  }
+
+  setInterval(nextImage, interval);
+});
+</script>
+<script>
+    function validarFormulario(evento);
+  var usuario = document.getElementById('usuario').value;
+  if(usuario.length == "") {
+    alert('No has escrito nada en el usuario');
+    return;
+  }
+</script>
+
+<body>
+    
+    <div class="e">
+        <a href="/busqueda.html" style="color: antiquewhite;"><-</a>
+    </div>
+    <div class="i">
+       <h1>Iniciar Sesion</h1> 
+    </div>
+    
+    <div class="form">
+        
+        <form action="busqueda.html">
+            
+            <p class="n">Nombre Usuario: <input type="text" name="usuario" id="usuario"></p>
+            <p class="n">Contraseña: <input type="password" required></p>
+
+            <input type="checkbox" name="terminos" value="" checked required>
+            <label for="terminos">Aceptas terminos y Condiciones</label><br><br>
+            
+            <div class="bb"><p><input type="submit" value="Enviar datos" ></p></div>
+        
+        </form>
+    </div>
+    <div class="slider-container">
+        <div class="slider">
+            <img src="/inicio.jpg" alt="Imagen 1">
+            <img src="/interfaces/imagenes/solo.jpg" alt="Imagen 2">
+            <img src="/interfaces/imagenes/halo-infinite-2746157.webp" alt="Imagen 3">
+        </div>
+    </div>
+
+    
+</body>
+</html>

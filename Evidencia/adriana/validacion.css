@@ -1,0 +1,66 @@
+@font-face {
+    font-family: ha;
+    src: url(Halo.ttf);
+}
+
+*{
+    
+    background-image: url(/interfaces/imagenes/solo.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size:cover;
+    
+}
+body {
+    text-align: center;
+    color: antiquewhite;
+    
+}
+.border{
+    
+    border: 2px solid;
+    border-radius: 12px;
+    margin-left:600px;
+    margin-right: 600px;
+    margin-top: -360px;
+    margin-bottom: 20px;
+    
+
+    
+}
+
+.bb{
+    text-align: center;
+    
+}
+
+#hw{
+    font-size: 1.5em;
+    
+    margin-right: 80%;
+    margin-top: 70px;
+    padding-top: 30px;
+    font-family: ha;
+
+}
+
+.re a{
+    font-family: ha;
+    font-size: 2em;
+    margin-right: 100%; 
+    color: antiquewhite;
+}
+.border,form,p{
+    background-image: url(/interfaces/imagenes/halo-infinite-2746157.webp);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+
+
+    
+    
+}
+.fo{
+    font-family: ha;
+}
+

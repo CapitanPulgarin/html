@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="validacion.css">
+</head>
+<script>
+
+</script> 
+
+<body>
+    
+    <div class="re">
+        <a href="/busqueda.html"><-</a>
+    </div>
+    
+    <div class="fo">
+        <h1>Formulario de Inscripcion</h1>
+    </div>
+
+    <div id="hw">
+        <h2>Bienvenido recluta llena este formulario para que seas parte de una gran aventura y aprendas a ser un Spartan.</h2>
+    </div>
+    
+    <div class="border"> 
+    <form action="/busqueda.html" >
+        
+        <p>Nro Documento: <input type="text" name="Dcumento" placeholder="Numero Documento" maxlength="10" required></p>
+        <p>Tipo Documento <select name="Selecion" required>
+            <option></option>
+            <option>C.C</option>
+            <option>T.I</option>
+            </select>
+        <p>Nombre: <input type="text" name="nombre"  placeholder="Nombres Completos..." required></p>
+        <p>Apellido: <input type="text" name="apellido" placeholder="Apellido Completos..." required></p>
+        <p>Email: <input type="email" placeholder="Correo" required></p>
+        <p></p>
+        <p>Sexo:
+        <input type="radio" name="hm" value="h" required> Hombre
+        <input type="radio" name="hm" value="m" required> Mujer
+        </p>
+        <input type="checkbox" name="terminos" value="Boat" checked>
+        <label for="terminos">Aceptas terminos y Condiciones</label><br><br>
+        <div class="bb"><p><input type="submit" value="Enviar datos" ></p></div>
+    </form>
+    </div>
+    
+</body>
+</html>
