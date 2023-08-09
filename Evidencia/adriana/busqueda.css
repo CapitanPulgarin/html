@@ -55,9 +55,18 @@ footer {
     display: inline;
 }
 .regi{
+    padding-top: 10px;
+    margin-left: 450px;
     text-align: right;
-    font-size: 2em;
+    font-size: 1.3em;
+
+}
+form{
+    text-align: right;
+    margin-left: 65pc;
     
+    
+
 }
 
 
